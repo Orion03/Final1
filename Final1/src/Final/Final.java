@@ -9,7 +9,8 @@ public class Final {
 		    int quest1 = 0;
 	        int secret1;
 	        int quest2 = 0; 
-	        int quest3;
+	        int quest3 = 0;
+	        int quest2a;
 	        String ending = "";
 	        Scanner input = new Scanner(System.in);
 	        
@@ -19,12 +20,20 @@ public class Final {
 	        		+ " Enter a dark hallway, walking for minutes \nafter running into a old wooden door nearly breaking it,"
 	        		+ " after entering there is a hallway and two others doors across from each other, \nin the middle"
 	        		+ " a skeleton t poses, choose your quest now.  ");
-		   
+		     quest1 = input.nextInt();
 	        if(quest1 == 1) {
 	        	System.out.println(" You choose the dark hallway, Aftr walking down the dark hallway"
 	        			+ "\nYou hear a low growl like a bear and a boar combined,"
 	        			+ "\nNext you hear the hard running and you feel like you've been stabed, you've died. ");
+	        			
 	        	ending = "You died";
+	        }
+	        else if(quest2 == 2) {
+	        	System.out.println("The old rusty metal door to the left, \n you survive opening it and its an entire"
+	        			+ "cobblestone room with two metal rusty doors");
+	        }
+	        else if(quest3 == 3) {
+	        	
 	        }
 		    
 		
@@ -33,7 +42,7 @@ public class Final {
 
 	//private static void displayMessage(String ending) {
 		// TODO Auto-generated method stub
-		 //System.out.println("You did it, you maded it out, enjoy your life. " + ending);
+		 //System.out.println("You did it, you made it out, enjoy your life. " + ending);
 		
 		
 		
