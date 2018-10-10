@@ -16,6 +16,7 @@ public class Skeleton1 {
 		
 		String input4;
 		String input5;
+		int input6;
 		
 		System.out.println("And thus, your adventure as a Skeleton Warrior begins...");
 		System.out.println("		   Rise from thy grave");
@@ -26,9 +27,11 @@ public class Skeleton1 {
 				+ "cool frog? \n  \nYes \nNo");
 		input5 = input.next();
 		
-		if(input5 == "Yes")
+		if(input5.equalsIgnoreCase("Yes") || input5.equalsIgnoreCase("y"))
 		{
-			System.out.println("e");
+			System.out.println("You approach the cool frog. It glistens in the moonlight. Your non-existent ears listen to the soft ribbits of it. \n1 - Admire the cool frog \n2 - Threaten "
+					+ "the cool frog");
+			input6 = input.nextInt();
 		}
 		
 	}
