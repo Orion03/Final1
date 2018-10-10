@@ -23,7 +23,7 @@ public class Skeleton1 {
 		input4 = input.next();
 		
 		System.out.println("You walk through the graveyard, searching for an exit. Through your search, \nsomething catches your eye socket. It's a frog. A cool frog. \n \nApproach the "
-				+ "cool frog?");
+				+ "cool frog? \n  \nYes \nNo");
 		input5 = input.next();
 		
 		if(input5 == "Yes")
