@@ -32,6 +32,19 @@ public class Skeleton1 {
 			System.out.println("You approach the cool frog. It glistens in the moonlight. Your non-existent ears listen to the soft ribbits of it. \n1 - Admire the cool frog \n2 - Threaten "
 					+ "the cool frog");
 			input6 = input.nextInt();
+			
+			if(input6 == 2)
+			{
+				System.out.println("You threaten the cool frog. You hold a sword up to it's neck. You look at it \nmenacingly in the eye. The cool frog swallows you whole. You died. Start "
+						+ "your \nadventure over.");
+			}
+			
+			if(input6 == 1)
+			{
+				System.out.println("You admire the cool frog. It admires you back. Content with your admiration for it, \nthe cool frog hops away into the graveyard. Perhaps someday it "
+						+ "will aid you in your \njourney. As you walk further searching for the exit, you notice that your armor and weapons are quite worn. Although your armor is made "
+						+ "of pure iron and your sword sharpened to the thinnest point, there's no telling how long it's been degrading along with you.");
+			}
 		}
 		
 	}
