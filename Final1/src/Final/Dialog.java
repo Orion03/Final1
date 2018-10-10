@@ -13,15 +13,15 @@ public class Dialog {
 
 		Scanner input = new Scanner(System.in);
 		
-		int input1;
-		int input2;
+		String input1;
+		String input2;
 		int input3;
 		
 		Text.text();
-		input1 = input.nextInt();
+		input1 = input.next();
 		
 		Text.text2();
-		input2 = input.nextInt();
+		input2 = input.next();
 		
 		Text.text3();
 		input3 = input.nextInt();
