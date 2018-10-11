@@ -18,6 +18,7 @@ public class Skeleton1 {
 		String input5;
 		int input6;
 		int input7;
+		String inputName;
 		
 		System.out.println("And thus, your adventure as a Skeleton Warrior begins...");
 		System.out.println("		   Rise from thy grave");
@@ -51,7 +52,10 @@ public class Skeleton1 {
 				
 				if(input7 == 1)
 				{
-					System.out.println("Your ");
+					System.out.println("Your hunt for armor begins. Not like it would really take very long to find it, \nthough. That's the merchant right over there. You approach the "
+							+ "armor merchant. But \nright before you approach him, you realize you don't have a name. Now would be a \ngood time to figure that out >> ");
+					inputName = input.next();
+					System.out.println("So you've made up your mind, even though skeletons don't really have brains. \n" + inputName + " is the name you've settled on.");
 				}
 				
 				else if(input7 == 2)
