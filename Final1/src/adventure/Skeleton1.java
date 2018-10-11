@@ -55,12 +55,27 @@ public class Skeleton1 {
 					System.out.println("Your hunt for armor begins. Not like it would really take very long to find it, \nthough. That's the merchant right over there. You approach the "
 							+ "armor merchant. But \nright before you approach him, you realize you don't have a name. Now would be a \ngood time to figure that out >> ");
 					inputName = input.next();
-					System.out.println("So you've made up your mind, even though skeletons don't really have brains. \n" + inputName + " is the name you've settled on.");
+					System.out.println("So you've made up your mind, even though skeletons don't really have brains. \n" + inputName + " is the name you've settled on. You approach the "
+							+ "merchant. He welcomes you to his...shop? Can you really call anything in a graveyard a shop?");
+					System.out.println("Bartholomew, The Great Armor Merchant: Welcome to thy shop, what shall you have?");
+					System.out.println("1 - Steel plated wool insolent armor. Very solid and heavy. It has a wool lining on the inside to protect you from the cold weather of the nights.");
+					System.out.println("Bartholomew, The Great Armor Merchant: I've heard humans say that wool is really uncomfortable. Good thing skeletons don't have nerves. Looks like"
+							+ " we're out of stock of anything else. Tell you what, since your the new guy, I'll give you this one for free.");
+					System.out.println("You aquirred the Steel Plated Wool Insolent armor. It's better than what you've got now, so might as well use it. Now it's time to find a weapon.");
 				}
 				
 				else if(input7 == 2)
 				{
-					System.out.println("");
+					System.out.println("Your hunt for weapons begins. Not like it would really take very long to find any, \nthough. That's the merchant right over there. You approach the "
+							+ "weapons merchant. But \nright before you approach him, you realize you don't have a name. Now would be a \ngood time to figure that out >> ");
+					inputName = input.next();
+					System.out.println("So you've made up your mind, even though skeletons don't really have brains. \n" + inputName + " is the name you've settled on. You approach the "
+							+ "merchant. He welcomes you to his...shop? Can you really call anything in a graveyard a shop?");
+					System.out.println("Dracula S. Notobushki, Legendary Weaponsmith: Welcome to the shop, young warrior. What would you like?");
+					System.out.println("1 - Caliburn. It looks kind of lame. Apparently it was pulled out a rock by some old king guy. Doesn't seem that impressive, but it's better than "
+							+ "what you've got now.");
+					System.out.println("Dracula S. Notobushki, Legendary Weaponsmith: Tell you what, since your a new guy around here, I'll give it to you for free.");
+					
 				}
 			}
 		}
