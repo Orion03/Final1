@@ -40,7 +40,7 @@ public class Skeleton1 {
 						+ "your \nadventure over.");
 			}
 			
-			if(input6 == 1)
+			else if(input6 == 1)
 			{
 				System.out.println("You admire the cool frog. It admires you back. Content with your admiration for it, \nthe cool frog hops away into the graveyard. Perhaps someday it "
 						+ "will aid you in your \njourney. As you walk further searching for the exit, you notice that your armor and \nweapons are quite worn. Although your armor is made "
@@ -51,10 +51,10 @@ public class Skeleton1 {
 				
 				if(input7 == 1)
 				{
-					System.out.println("");
+					System.out.println("Your ");
 				}
 				
-				if(input7 == 2)
+				else if(input7 == 2)
 				{
 					System.out.println("");
 				}
