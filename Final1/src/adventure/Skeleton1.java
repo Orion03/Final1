@@ -75,6 +75,7 @@ public class Skeleton1 {
 					System.out.println("1 - Caliburn. It looks kind of lame. Apparently it was pulled out a rock by some old king guy. Doesn't seem that impressive, but it's better than "
 							+ "what you've got now.");
 					System.out.println("Dracula S. Notobushki, Legendary Weaponsmith: Tell you what, since your a new guy around here, I'll give it to you for free.");
+					System.out.println("You aquirred Caliburn. Now you just need some armor. Not like it would take very long to find any though, that's the merchant right over there.");
 					
 				}
 			}
