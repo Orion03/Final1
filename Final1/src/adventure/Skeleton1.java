@@ -17,6 +17,7 @@ public class Skeleton1 {
 		String input4;
 		String input5;
 		int input6;
+		int input7;
 		
 		System.out.println("And thus, your adventure as a Skeleton Warrior begins...");
 		System.out.println("		   Rise from thy grave");
@@ -44,7 +45,19 @@ public class Skeleton1 {
 				System.out.println("You admire the cool frog. It admires you back. Content with your admiration for it, \nthe cool frog hops away into the graveyard. Perhaps someday it "
 						+ "will aid you in your \njourney. As you walk further searching for the exit, you notice that your armor and \nweapons are quite worn. Although your armor is made "
 						+ "of pure iron and your sword \nsharpened to the thinnest point, there's no telling how long it's been degrading \nalong with you. Perhaps a fellow skeleton knows "
-						+ "where you can find some better \ngear. That means you have to find a skeleton first, though.");
+						+ "where you can find some better \ngear. That means you have to find a skeleton first, though. Luckily, your in a graveyard, so it's not very hard to find one.");
+				System.out.println("\n1 - Search for armor \n2 - Search for weapons");
+				input7 = input.nextInt();
+				
+				if(input7 == 1)
+				{
+					System.out.println("");
+				}
+				
+				if(input7 == 2)
+				{
+					System.out.println("");
+				}
 			}
 		}
 		
