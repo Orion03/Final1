@@ -62,12 +62,17 @@ public class Skeleton1FinalChapter {
 								+ "adventure over.");
 					}
 					
-					if(input11 == 3)
+					else if(input11 == 3)
 					{
 						System.out.println("You take the peach. You hate the way the fuzz feels, despite being a skeleton and not having any "
 								+ "nerves. You hate the way it looks, despite being a skeleton and having no eyes. The peach hates you back. "
 								+ "It wants to kill you. The peach, turns out, was not actually a peach, but instead a bomb disguised as a "
 								+ "peach and gained sentience. The peach blows itself up. You died. Start your adventure over.");
+					}
+					
+					else if(input11 == 2)
+					{
+						
 					}
 				}
 				
