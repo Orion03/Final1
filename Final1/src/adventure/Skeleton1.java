@@ -70,6 +70,8 @@ public class Skeleton1 {
 					System.out.println("Now that you've got a new set of gear, it's time to head to the exit. Looks like it's conviently right up ahead.");
 					
 					System.out.println("\nCHAPTER 1 COMPLETE");
+					
+					finalChapter.Skeleton1FinalChapter.text();
 				}
 				
 				else if(input7 == 2)
@@ -92,6 +94,8 @@ public class Skeleton1 {
 					System.out.println("Now that you've got a new set of gear, it's time to head to the exit. Looks like it's conviently right up ahead.");
 					
 					System.out.println("\nCHAPTER 1 COMPLETE");
+					
+					finalChapter.Skeleton1FinalChapter.text();
 				}
 			}
 		}
