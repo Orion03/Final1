@@ -17,6 +17,7 @@ public class Skeleton1FinalChapter {
 		int input8;
 		String input9;
 		int input10;
+		int input11;
 		
 		System.out.println("The Final Chapter Begins...");
 		System.out.println("Your standing at the exit. It's 4:30pm, October 31st. 30 minutes early. What humans call .:Trick-or-treating:. "
@@ -50,7 +51,24 @@ public class Skeleton1FinalChapter {
 				
 				if(input10 == 1)
 				{
-					System.out.println("You decide to search for healing items next");
+					System.out.println("You decide to search for healing items next. In the graveyard, there are many trees growing "
+							+ "different types of fruits. You could probably only hold 1, though. Choose wisely:");
+					System.out.println("\n1 - Apple \n2 - Orange \n3 - Peach");
+					input11 = input.nextInt();
+					
+					if(input11 == 1)
+					{
+						System.out.println("You take the apple. Apparently, you've doomed all of skeletonkind. You died. Start your "
+								+ "adventure over.");
+					}
+					
+					if(input11 == 3)
+					{
+						System.out.println("You take the peach. You hate the way the fuzz feels, despite being a skeleton and not having any "
+								+ "nerves. You hate the way it looks, despite being a skeleton and having no eyes. The peach hates you back. "
+								+ "It wants to kill you. The peach, turns out, was not actually a peach, but instead a bomb disguised as a "
+								+ "peach and gained sentience. The peach blows itself up. You died. Start your adventure over.");
+					}
 				}
 				
 			}
