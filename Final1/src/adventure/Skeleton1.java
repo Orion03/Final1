@@ -71,7 +71,7 @@ public class Skeleton1 {
 					
 					System.out.println("\nCHAPTER 1 COMPLETE");
 					
-					finalChapter.Skeleton1FinalChapter.text();
+					finalChapter.SkeletonFinalChapter.text();
 				}
 				
 				else if(input7 == 2)
@@ -95,7 +95,7 @@ public class Skeleton1 {
 					
 					System.out.println("\nCHAPTER 1 COMPLETE");
 					
-					finalChapter.Skeleton1FinalChapter.text();
+					finalChapter.SkeletonFinalChapter.text();
 				}
 			}
 		}

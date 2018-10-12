@@ -2,7 +2,7 @@ package finalChapter;
 
 import java.util.Scanner;
 
-public class Skeleton1FinalChapter {
+public class SkeletonFinalChapter {
 
 	public static void main(String[] args) {
 		
