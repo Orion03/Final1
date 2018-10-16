@@ -170,15 +170,15 @@ public class SkeletonFinalChapter {
 		
 		else if(input13 == 2)
 		{
-			System.out.println("You decide to use the crosswalk. You may be a skeleton, but at least you have some common sense. However, someone in a SUV didn't see "
-					+ "you and ran you over. Your bones crushed underneath the pressure. You died. Start your adventure over.");
+			System.out.println("You decide to use the crosswalk. You may be a skeleton, but at least you have some common sense. \nHowever, someone in a SUV didn't see "
+					+ "you and ran you over. Your bones crushed underneath the pressure. \nYou died. Start your adventure over.");
 		}
 		
 		else if(input13 == 3)
 		{
-			System.out.println("You decide to use the catapult. It seems like a really bad idea, but somehow you think it will work. You get in. Another skeleton "
-					+ "cuts a rope. Your flying through the air to the other side. Across the graveyard, across the road, and straight through a window in the gas "
-					+ "station. The impact of you crashing through the window didn't even hurt. Maybe it's because your a skeleton and don't have nerves. You get up "
+			System.out.println("You decide to use the catapult. It seems like a really bad idea, but somehow you think it will work. \nYou get in. Another skeleton "
+					+ "cuts a rope. Your flying through the air to the other side. Across the \ngraveyard, across the road, and straight through a window in the gas "
+					+ "station. The impact of you \ncrashing through the window didn't even hurt. Maybe it's because your a skeleton and don't have nerves. You get up "
 					+ "and find the milk. You can take only about 1/2 of a gallon. You must decide: ");
 			System.out.println("\n1 - Steal the milk \n2 - Pay for the milk ($1.50)");
 			input14 = input.nextInt();
