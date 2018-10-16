@@ -115,6 +115,14 @@ public class SkeletonFinalChapter {
 											+ "Before you know it, the defense system activates, and you get shot from just about every angle possible. You died. Start your adventure "
 											+ "over.");
 								}
+								
+								else if(input14 == 1)
+								{
+									System.out.println("You decide to steal the milk. Immoral? Yes. Worth it? Yes. You stuff the milk inside your ribcage. It basically functions as a "
+											+ "giant pocket. You bolt out of the front door, and back to the graveyard as fast as you can. You made it, and it's highly unlikely you'll "
+											+ "caught, because you highly doubt the police will believe a walking skeleton covered in armor and wielding a sword broke into a gas station "
+											+ "and stole milk.");
+								}
 							}
 						}
 					}
