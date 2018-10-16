@@ -72,7 +72,7 @@ public class SkeletonFinalChapter {
 					
 					else if(input11 == 2)
 					{
-						
+						System.out.println("The right choice. You are satisfied with the orange.");
 					}
 				}
 				
