@@ -80,7 +80,8 @@ public class SkeletonFinalChapter {
 						if(input12 == 1)
 						{
 							System.out.println("It's time to search for milk. Everybody knows that milk contains calcium, which strengthens the bones. Considering you are only bones, all "
-									+ "of that calcium goes straight to it, meaning it boosts it by much more than any mere human.");
+									+ "of that calcium goes straight to it, meaning it boosts it by much more than any mere human. This is the most difficult of tasks: You must leave "
+									+ "the graveyard. There's a gas station right across from it which has tons of milk, but your not going to find any in the graveyard.");
 						}
 					}
 				}
