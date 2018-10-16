@@ -20,6 +20,7 @@ public class SkeletonFinalChapter {
 		int input11;
 		int input12;
 		int input13;
+		int input14;
 		
 		System.out.println("The Final Chapter Begins...");
 		System.out.println("Your standing at the exit. It's 4:30pm, October 31st. 30 minutes early. What humans call \n.:Trick-or-treating:. "
@@ -92,15 +93,28 @@ public class SkeletonFinalChapter {
 										+ "law. You died. Start your adventure over.");
 							}
 							
-							if(input13 == 2)
+							else if(input13 == 2)
 							{
 								System.out.println("You decide to use the crosswalk. You may be a skeleton, but at least you have some common sense. However, someone in a SUV didn't see "
 										+ "you and ran you over. Your bones crushed underneath the pressure. You died. Start your adventure over.");
 							}
 							
-							if(input13 == 3)
+							else if(input13 == 3)
 							{
-								System.out.println("You decide to use the catapult. It seems like a really bad idea, but somehow you think it will work.");
+								System.out.println("You decide to use the catapult. It seems like a really bad idea, but somehow you think it will work. You get in. Another skeleton "
+										+ "cuts a rope. Your flying through the air to the other side. Across the graveyard, across the road, and straight through a window in the gas "
+										+ "station. The impact of you crashing through the window didn't even hurt. Maybe it's because your a skeleton and don't have nerves. You get up "
+										+ "and find the milk. You can take only about 1/2 of a gallon. You must decide: ");
+								System.out.println("\n1 - Steal the milk \n2 - Pay for the milk ($1.50)");
+								input14 = input.nextInt();
+								
+								if(input14 == 2)
+								{
+									System.out.println("You decide to pay for the milk. After all, stealing is wrong. You walk up to the counter. The cashier dies of a heart attack. "
+											+ "Guess humans don't see walking skeletons very much. When he falls to the ground, his hand conviently hits the defense system button. "
+											+ "Before you know it, the defense system activates, and you get shot from just about every angle possible. You died. Start your adventure "
+											+ "over.");
+								}
 							}
 						}
 					}
