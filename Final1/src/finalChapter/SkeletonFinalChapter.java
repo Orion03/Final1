@@ -50,17 +50,51 @@ public class SkeletonFinalChapter {
 			else if(input10 == 2)
 			{
 				choiceMilk(input13, input14);
+				
+				choiceHealing(input11);
 			}
 		}
 		
 		else if(input8 == 2)
 		{
-			choiceHealing(input10);
+			choiceHealing(input11);
+			System.out.println("\n1 - Find other useful weapons \n2 - Enhance strength with milk");
+			input10 = input.nextInt();
+			
+			if(input10 == 1)
+			{
+				choiceGrave(input9);
+				
+				choiceMilk(input13, input14);
+			}
+			
+			else if(input10 == 2)
+			{
+				choiceMilk(input13, input14);
+				
+				choiceGrave(input9);
+			}
 		}
 		
 		else if(input8 == 3)
 		{
 			choiceMilk(input13, input14);
+			System.out.println("\n1 - Find other useful weapons \n2 - Find healing items");
+			input10 = input.nextInt();
+			
+			if(input10 == 1)
+			{
+				choiceGrave(input9);
+				
+				choiceHealing(input11);
+			}
+			
+			else if(input10 == 2)
+			{
+				choiceHealing(input11);
+				
+				choiceGrave(input9);
+			}
 		}
 							}
 	
@@ -122,15 +156,15 @@ public class SkeletonFinalChapter {
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.println("It's time to search for milk. Everybody knows that milk contains calcium, which strengthens the bones. Considering you are only bones, all "
-				+ "of that calcium goes straight to it, meaning it boosts it by much more than any mere human. This is the most difficult of tasks: You must leave "
-				+ "the graveyard. There's a gas station right across from it which has tons of milk, but your not going to find any in the graveyard. You must decide:");
+		System.out.println("It's time to search for milk. Everybody knows that milk contains calcium, which strengthens the bones. \nConsidering you are only bones, all "
+				+ "of that calcium goes straight to it, meaning it boosts it by much \nmore than any mere human. This is the most difficult of tasks: You must leave "
+				+ "the graveyard. There's a \ngas station right across from it which has tons of milk, but your not going to find any in the \ngraveyard. You must decide:");
 		System.out.println("\n1 - Jaywalk \n2 - Use the cross walk \n3 - Use a medieval catapult");
 		input13 = input.nextInt();
 		
 		if(input13 == 1)
 		{
-			System.out.println("You decide to jaywalk. You begin to sink. Unfortunately, the road suddenly turned into quicksand. Maybe it's because you broke the "
+			System.out.println("You decide to jaywalk. You begin to sink. Unfortunately, the road suddenly turned into quicksand. Maybe \nit's because you broke the "
 					+ "law. You died. Start your adventure over.");
 		}
 		
