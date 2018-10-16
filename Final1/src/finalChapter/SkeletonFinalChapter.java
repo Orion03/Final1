@@ -41,6 +41,10 @@ public class SkeletonFinalChapter {
 			if(input10 == 1)
 			{
 				choiceHealing(input11);
+				
+				choiceMilk(input13, input14);
+				
+				
 			}
 			
 			else if(input10 == 2)
