@@ -41,7 +41,7 @@ public class SkeletonFinalChapter {
 						+ "You die on the spot, just from him looking at you. You died. Start your adventure over.");
 			}
 			
-			if(input9.equalsIgnoreCase("No") || input9.equalsIgnoreCase("n"))
+			else if(input9.equalsIgnoreCase("No") || input9.equalsIgnoreCase("n"))
 			{
 				System.out.println("You decide not to disrupt the dead. A good decision on your part. Luckily though, there are convient "
 						+ "daggers right by the grave that don't belong to anybody. You decide to pick them up. Now that you have another "

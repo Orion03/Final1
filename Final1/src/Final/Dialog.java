@@ -52,7 +52,7 @@ public class Dialog {
 		}
 		
 		else
-			System.out.println("Error.");
+			System.out.println("This skeleton does not exist in this realm. You died. Start your adventure over.");
 	}
 
 }
