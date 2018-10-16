@@ -19,6 +19,7 @@ public class SkeletonFinalChapter {
 		int input10;
 		int input11;
 		int input12;
+		int input13;
 		
 		System.out.println("The Final Chapter Begins...");
 		System.out.println("Your standing at the exit. It's 4:30pm, October 31st. 30 minutes early. What humans call \n.:Trick-or-treating:. "
@@ -81,7 +82,26 @@ public class SkeletonFinalChapter {
 						{
 							System.out.println("It's time to search for milk. Everybody knows that milk contains calcium, which strengthens the bones. Considering you are only bones, all "
 									+ "of that calcium goes straight to it, meaning it boosts it by much more than any mere human. This is the most difficult of tasks: You must leave "
-									+ "the graveyard. There's a gas station right across from it which has tons of milk, but your not going to find any in the graveyard.");
+									+ "the graveyard. There's a gas station right across from it which has tons of milk, but your not going to find any in the graveyard. You must decide:");
+							System.out.println("\n1 - Jaywalk \n2 - Use the cross walk \n3 - Use a medieval catapult");
+							input13 = input.nextInt();
+							
+							if(input13 == 1)
+							{
+								System.out.println("You decide to jaywalk. You begin to sink. Unfortunately, the road suddenly turned into quicksand. Maybe it's because you broke the "
+										+ "law. You died. Start your adventure over.");
+							}
+							
+							if(input13 == 2)
+							{
+								System.out.println("You decide to use the crosswalk. You may be a skeleton, but at least you have some common sense. However, someone in a SUV didn't see "
+										+ "you and ran you over. Your bones crushed underneath the pressure. You died. Start your adventure over.");
+							}
+							
+							if(input13 == 3)
+							{
+								System.out.println("You decide to use the catapult. It seems like a really bad idea, but somehow you think it will work.");
+							}
 						}
 					}
 				}
