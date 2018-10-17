@@ -4,7 +4,7 @@ public class Text {
 
 	public static void text() {
 		
-		System.out.println("Welcome to the great skeleton war \n	Press any key to begin");
+		System.out.println("\nWelcome to the great skeleton war \n	Press any key to begin");
 
 	}
 	

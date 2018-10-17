@@ -185,10 +185,11 @@ public class SkeletonFinalChapter {
 			
 			if(input14 == 2)
 			{
-				System.out.println("You decide to pay for the milk. After all, stealing is wrong. You walk up to the counter. The cashier dies of a heart attack. "
-						+ "Guess humans don't see walking skeletons very much. When he falls to the ground, his hand conviently hits the defense system button. "
-						+ "Before you know it, the defense system activates, and you get shot from just about every angle possible. You died. Start your adventure "
+				System.out.println("You decide to pay for the milk. After all, stealing is wrong. You walk up to the counter. The cashier \ndies of a heart attack. "
+						+ "Guess humans don't see walking skeletons very much. When he falls to the \nground, his hand conviently hits the defense system button. "
+						+ "Before you know it, the defense system \nactivates, and you get shot from just about every angle possible. You died. Start your adventure "
 						+ "over.");
+				Final.Dialog.text();
 			}
 			
 			else if(input14 == 1)
