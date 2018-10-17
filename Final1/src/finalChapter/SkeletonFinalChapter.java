@@ -21,6 +21,7 @@ public class SkeletonFinalChapter {
 		int input12;
 		int input13 = 0;
 		int input14 = 0;
+		String input15 = null;
 		
 		System.out.println("The Final Chapter Begins...");
 		System.out.println("Your standing at the exit. It's 4:30pm, October 31st. 30 minutes early. What humans call \n.:Trick-or-treating:. "
@@ -43,6 +44,8 @@ public class SkeletonFinalChapter {
 				choiceHealing(input11);
 				
 				choiceMilk(input13, input14);
+				
+				havoc(input15);
 				
 				
 			}
@@ -207,4 +210,11 @@ public class SkeletonFinalChapter {
 	}
 }
 }
+	public static void havoc(String input15) {
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.println("You now have everything. It is time to wreak havoc on the humans. Are you ready?");
+		input15 = input.next();
+	}
 	}
