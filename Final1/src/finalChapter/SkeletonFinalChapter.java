@@ -55,6 +55,8 @@ public class SkeletonFinalChapter {
 				choiceMilk(input13, input14);
 				
 				choiceHealing(input11);
+				
+				havoc(input15);
 			}
 		}
 		
@@ -69,6 +71,8 @@ public class SkeletonFinalChapter {
 				choiceGrave(input9);
 				
 				choiceMilk(input13, input14);
+				
+				havoc(input15);
 			}
 			
 			else if(input10 == 2)
@@ -76,6 +80,8 @@ public class SkeletonFinalChapter {
 				choiceMilk(input13, input14);
 				
 				choiceGrave(input9);
+				
+				havoc(input15);
 			}
 		}
 		
@@ -90,6 +96,8 @@ public class SkeletonFinalChapter {
 				choiceGrave(input9);
 				
 				choiceHealing(input11);
+				
+				havoc(input15);
 			}
 			
 			else if(input10 == 2)
@@ -97,6 +105,8 @@ public class SkeletonFinalChapter {
 				choiceHealing(input11);
 				
 				choiceGrave(input9);
+				
+				havoc(input15);
 			}
 		}
 							}
