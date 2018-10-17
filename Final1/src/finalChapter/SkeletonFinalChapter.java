@@ -226,5 +226,11 @@ public class SkeletonFinalChapter {
 		
 		System.out.println("You now have everything. It is time to wreak havoc on the humans. Are you ready?");
 		input15 = input.next();
+		
+		if(input15.equalsIgnoreCase("No") || input15.equalsIgnoreCase("n")) {
+			
+			
+			
+		}
 	}
 	}
