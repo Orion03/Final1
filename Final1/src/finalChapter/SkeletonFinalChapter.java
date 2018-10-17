@@ -233,5 +233,14 @@ public class SkeletonFinalChapter {
 			Final.Dialog.text();
 			
 		}
+		
+		else if(input15.equalsIgnoreCase("Yes") || input15.equalsIgnoreCase("y")) {
+			
+			System.out.println("It is time to unleash rage against mankind. You walk out of the graveyard, and adventure into the neighborhood near by. You walk up to the porch. You "
+					+ "knock on the door. Someone opens the door. It's a human. They do not realize you are a real skeleton. .:Trick or treat:. you say. When they hand you a piece of "
+					+ "candy, you realize that their dog has run out of the door and is biting you. You shoo the dog away. It continues to bite. You also realize your mask has fallen off"
+					+ "and now the human sees you are a real skeleton. The human blasts your cranium with a shotgun. You died. The end.");
+			
+		}
 	}
 	}
