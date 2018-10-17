@@ -229,7 +229,8 @@ public class SkeletonFinalChapter {
 		
 		if(input15.equalsIgnoreCase("No") || input15.equalsIgnoreCase("n")) {
 			
-			
+			System.out.println("A fool you are, for the decision you've made has led to a full restart.");
+			Final.Dialog.text();
 			
 		}
 	}
