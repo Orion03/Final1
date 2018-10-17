@@ -112,6 +112,7 @@ public class SkeletonFinalChapter {
 			System.out.println("You decide to raid the grave. You've disturbed the spirit of that grave, and you feel uneasy. You "
 					+ "realize that was actually \nElvis Presley's grave. He decides that you disrupted him and is punishable by death. "
 					+ "You die on the \nspot, just from him looking at you. You died. Start your adventure over.");
+			Final.Dialog.text();
 		}
 		
 		else if(input9.equalsIgnoreCase("No") || input9.equalsIgnoreCase("n"))
@@ -136,6 +137,7 @@ public class SkeletonFinalChapter {
 		{
 			System.out.println("You take the apple. Apparently, you've doomed all of skeletonkind. You died. Start your "
 					+ "adventure over.");
+			Final.Dialog.text();
 		}
 		
 		else if(input11 == 3)
@@ -144,11 +146,12 @@ public class SkeletonFinalChapter {
 					+ "\nnerves. You hate the way it looks, despite being a skeleton and having no eyes. The peach hates you \nback. "
 					+ "It wants to kill you. The peach, turns out, was not actually a peach, but instead a bomb \ndisguised as a "
 					+ "peach and gained sentience. The peach blows itself up. You died. Start your adventure \nover.");
+			Final.Dialog.text();
 		}
 		
 		else if(input11 == 2)
 		{
-			System.out.println("The right choice. You are satisfied with the orange. The orange is satisfied with you. It's time to find the last thing:");
+			System.out.println("The right choice. You are satisfied with the orange. The orange is satisfied with you. It's time \nto find something else:");
 		}
 		}
 	
@@ -166,12 +169,14 @@ public class SkeletonFinalChapter {
 		{
 			System.out.println("You decide to jaywalk. You begin to sink. Unfortunately, the road suddenly turned into quicksand. Maybe \nit's because you broke the "
 					+ "law. You died. Start your adventure over.");
+			Final.Dialog.text();
 		}
 		
 		else if(input13 == 2)
 		{
 			System.out.println("You decide to use the crosswalk. You may be a skeleton, but at least you have some common sense. \nHowever, someone in a SUV didn't see "
 					+ "you and ran you over. Your bones crushed underneath the pressure. \nYou died. Start your adventure over.");
+			Final.Dialog.text();
 		}
 		
 		else if(input13 == 3)
@@ -194,10 +199,10 @@ public class SkeletonFinalChapter {
 			
 			else if(input14 == 1)
 			{
-				System.out.println("You decide to steal the milk. Immoral? Yes. Worth it? Yes. You stuff the milk inside your ribcage. It basically functions as a "
-						+ "giant pocket. You bolt out of the front door, and back to the graveyard as fast as you can. You made it, and it's highly unlikely you'll "
-						+ "caught, because you highly doubt the police will believe a walking skeleton covered in armor and wielding a sword broke into a gas station "
-						+ "and stole milk.");
+				System.out.println("You decide to steal the milk. Immoral? Yes. Worth it? Yes. You stuff the milk inside your ribcage. It \nbasically functions as a "
+						+ "giant pocket. You bolt out of the front door, and back to the graveyard as \nfast as you can. You made it, and it's highly unlikely you'll "
+						+ "caught, because you highly doubt the \npolice will believe a walking skeleton covered in armor and wielding a sword broke into a gas station "
+						+ "\nand stole milk.");
 		
 	}
 }
