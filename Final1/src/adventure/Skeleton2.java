@@ -37,15 +37,15 @@ public class Skeleton2 {
 			
 			if(input6 == 2)
 			{
-				System.out.println("You threaten the cool frog. You hold a sword up to it's neck. You look at it \nmenacingly in the eye. The cool frog swallows you whole. You died. Start "
+				System.out.println("You threaten the old man. You hold a sword up to his neck. You look at him \nmenacingly in the eye. The old man turns you to dust. You died. Start "
 						+ "your \nadventure over.");
 				Final.Dialog.text();
 			}
 			
 			else if(input6 == 1)
 			{
-				System.out.println("You admire the cool frog. It admires you back. Content with your admiration for it, \nthe cool frog hops away into the graveyard. Perhaps someday it "
-						+ "will aid you in your \njourney. As you walk further searching for the exit, you notice that your armor and \nweapons are quite worn. Although your armor is made "
+				System.out.println("You admire the old man. He admires you back. Content with your admiration for him, \nthe old man skates away into the graveyard. Perhaps someday he "
+						+ "will aid you in your \njourney. As you walk further searching for the exit, you notice that your costume and \nstaff are quite worn. Although your armor is made "
 						+ "of pure iron and your sword \nsharpened to the thinnest point, there's no telling how long it's been degrading \nalong with you. Perhaps a fellow skeleton knows "
 						+ "where you can find some better \ngear. That means you have to find a skeleton first, though. Luckily, your in a \ngraveyard, so it's not very hard to find one.");
 				System.out.println("\n1 - Search for armor \n2 - Search for weapons");
