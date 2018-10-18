@@ -12,7 +12,7 @@ public class Skeleton2 {
 	
 	public static void text() {
 		
-Scanner input = new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		
 		String input4;
 		String input5;
@@ -20,19 +20,19 @@ Scanner input = new Scanner(System.in);
 		int input7;
 		String inputName;
 		
-		System.out.println("And thus, your adventure as a Skeleton Warrior begins...");
+		System.out.println("And thus, your adventure as a Skeleton Sorcerer begins...");
 		System.out.println("		   Rise from thy grave");
 		System.out.println("		Press any key to continue");
 		input4 = input.next();
 		
-		System.out.println("You walk through the graveyard, searching for an exit. Through your search, \nsomething catches your eye socket. It's a frog. A cool frog. \n \nApproach the "
-				+ "cool frog? \n  \nYes \nNo");
+		System.out.println("You walk through the graveyard, searching for an exit. Through your search, \nsomething catches your eye socket. It's a man. An old frog. \n \nApproach the "
+				+ "old man? \n  \nYes \nNo");
 		input5 = input.next();
 		
 		if(input5.equalsIgnoreCase("Yes") || input5.equalsIgnoreCase("y"))
 		{
-			System.out.println("You approach the cool frog. It glistens in the moonlight. Your non-existent ears \nlisten to the soft ribbits of it. \n1 - Admire the cool frog \n2 - Threaten "
-					+ "the cool frog");
+			System.out.println("You approach the old man. He T-poses in the moonlight. Your non-existent ears \nlisten to the soft breaths of him. \n1 - Admire the old man \n2 - Threaten "
+					+ "the old man");
 			input6 = input.nextInt();
 			
 			if(input6 == 2)
