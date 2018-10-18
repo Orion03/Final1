@@ -245,6 +245,7 @@ public class SkeletonFinalChapter {
 					+ "also realize your mask has fallen off and now the \nhuman sees you are a real skeleton. It's not worth trying to conceal yourself now. You go on a rampage, \nand a "
 					+ "legion of skeletons arrise from the graveyard to rage war. The human population declined severely \nthat day. Once the night was done, the skeletons go back to the "
 					+ "graveyard to celebrate. \n \nUntil next year, " + inputName);
+			System.out.println("					THE END");
 			
 		}
 	}
