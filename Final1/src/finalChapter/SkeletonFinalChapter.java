@@ -6,11 +6,11 @@ public class SkeletonFinalChapter {
 
 	public static void main(String[] args) {
 		
-		text();
+		text(null);
 
 	}
 	
-	public static void text() {
+	public static void text(String inputName) {
 		
 		Scanner input = new Scanner(System.in);
 		
@@ -45,7 +45,7 @@ public class SkeletonFinalChapter {
 				
 				choiceMilk(input13, input14);
 				
-				havoc(input15);
+				havoc(input15, inputName);
 				
 				
 			}
@@ -56,7 +56,7 @@ public class SkeletonFinalChapter {
 				
 				choiceHealing(input11);
 				
-				havoc(input15);
+				havoc(input15, inputName);
 			}
 		}
 		
@@ -72,7 +72,7 @@ public class SkeletonFinalChapter {
 				
 				choiceMilk(input13, input14);
 				
-				havoc(input15);
+				havoc(input15, inputName);
 			}
 			
 			else if(input10 == 2)
@@ -81,7 +81,7 @@ public class SkeletonFinalChapter {
 				
 				choiceGrave(input9);
 				
-				havoc(input15);
+				havoc(input15, inputName);
 			}
 		}
 		
@@ -97,7 +97,7 @@ public class SkeletonFinalChapter {
 				
 				choiceHealing(input11);
 				
-				havoc(input15);
+				havoc(input15, inputName);
 			}
 			
 			else if(input10 == 2)
@@ -106,7 +106,7 @@ public class SkeletonFinalChapter {
 				
 				choiceGrave(input9);
 				
-				havoc(input15);
+				havoc(input15, inputName);
 			}
 		}
 							}
@@ -219,12 +219,14 @@ public class SkeletonFinalChapter {
 		
 	}
 }
-}
-	public static void havoc(String input15) {
+	}
+	
+	public static void havoc(String input15, String inputName) {
 		
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("You now have everything. It is time to wreak havoc on the humans. Are you ready?");
+		System.out.println("\nYes \nNo");
 		input15 = input.next();
 		
 		if(input15.equalsIgnoreCase("No") || input15.equalsIgnoreCase("n")) {
@@ -236,10 +238,13 @@ public class SkeletonFinalChapter {
 		
 		else if(input15.equalsIgnoreCase("Yes") || input15.equalsIgnoreCase("y")) {
 			
-			System.out.println("It is time to unleash rage against mankind. You walk out of the graveyard, and adventure into the neighborhood near by. You walk up to the porch. You "
-					+ "knock on the door. Someone opens the door. It's a human. They do not realize you are a real skeleton. .:Trick or treat:. you say. When they hand you a piece of "
-					+ "candy, you realize that their dog has run out of the door and is biting you. You shoo the dog away. It continues to bite. You also realize your mask has fallen off"
-					+ "and now the human sees you are a real skeleton. The human blasts your cranium with a shotgun. You died. The end.");
+			System.out.println("It is time to unleash rage against mankind. You walk out of the graveyard, and adventure into the \nneighborhood near by. You walk up to the porch. You "
+					+ "knock on the door. Someone opens the door. It's a \nhuman. They do not realize you are a real skeleton.");
+			System.out.println(inputName + ": Trick-or-treat!");
+			System.out.println("When they hand you a piece candy, you realize that their dog has run out of the door and is biting you. \nYou shoo the dog away. It continues to bite. You "
+					+ "also realize your mask has fallen off and now the \nhuman sees you are a real skeleton. It's not worth trying to conceal yourself now. You go on a rampage, \nand a "
+					+ "legion of skeletons arrise from the graveyard to rage war. The human population declined severely \nthat day. Once the night was done, the skeletons go back to the "
+					+ "graveyard to celebrate. \n \nUntil next year, " + inputName);
 			
 		}
 	}

@@ -62,17 +62,17 @@ public class Skeleton1 {
 					System.out.println("1 - Steel plated wool insolent armor. Very solid and heavy. It has a wool lining on \nthe inside to protect you from the cold weather of the nights.");
 					System.out.println("Bartholomew, The Great Armor Merchant: I've heard humans say that wool is really \nuncomfortable. Good thing skeletons don't have nerves. Looks like"
 							+ " we're out of \nstock of anything else. Tell you what, since your the new guy, I'll give you this \none for free.");
-					System.out.println("You aquirred the Steel Plated Wool Insolent armor. It's better than what you've got now, so might as well use it. Now it's time to find a weapon. "
-							+ "Not like that would take very long, though. That's the merchant right over there.");
+					System.out.println("You aquirred the Steel Plated Wool Insolent armor. It's better than what you've got now, so might as \nwell use it. Now it's time to find a weapon. "
+							+ "Not like that would take very long, though. That's the \nmerchant right over there.");
 					System.out.println("Dracula S. Notobushki, Legendary Weaponsmith: Welcome to the shop, young warrior. What would you like?");
-					System.out.println("1 - Caliburn. It looks kind of lame. Apparently it was pulled out a rock by some old king guy. Doesn't seem that impressive, but it's better than "
+					System.out.println("1 - Caliburn. It looks kind of lame. Apparently it was pulled out a rock by some old king guy. Doesn't \nseem that impressive, but it's better than "
 							+ "what you've got now.");
-					System.out.println("Dracula S. Notobushki, Legendary Weaponsmith: Tell you what, since your a new guy around here, I'll give it to you for free.");
-					System.out.println("Now that you've got a new set of gear, it's time to head to the exit. Looks like it's conviently right up ahead.");
+					System.out.println("Dracula S. Notobushki, Legendary Weaponsmith: Tell you what, since your a new guy around here, I'll \ngive it to you for free.");
+					System.out.println("Now that you've got a new set of gear, it's time to head to the exit. Looks like it's conviently right \nup ahead.");
 					
 					System.out.println("\nCHAPTER 1 COMPLETE");
 					
-					finalChapter.SkeletonFinalChapter.text();
+					finalChapter.SkeletonFinalChapter.text(inputName);
 				}
 				
 				else if(input7 == 2)
@@ -81,22 +81,22 @@ public class Skeleton1 {
 							+ "weapons merchant. But \nright before you approach him, you realize you don't have a name. Now would be a \ngood time to figure that out >> ");
 					inputName = input.next();
 					System.out.println("So you've made up your mind, even though skeletons don't really have brains. \n" + inputName + " is the name you've settled on. You approach the "
-							+ "merchant. He welcomes you to his...shop? Can you really call anything in a graveyard a shop?");
+							+ "merchant. He welcomes you to his...shop? Can you \nreally call anything in a graveyard a shop?");
 					System.out.println("Dracula S. Notobushki, Legendary Weaponsmith: Welcome to the shop, young warrior. What would you like?");
-					System.out.println("1 - Caliburn. It looks kind of lame. Apparently it was pulled out a rock by some old king guy. Doesn't seem that impressive, but it's better than "
+					System.out.println("1 - Caliburn. It looks kind of lame. Apparently it was pulled out a rock by some old king guy. Doesn't \nseem that impressive, but it's better than "
 							+ "what you've got now.");
-					System.out.println("Dracula S. Notobushki, Legendary Weaponsmith: Tell you what, since your a new guy around here, I'll give it to you for free.");
-					System.out.println("You aquirred Caliburn. Now you just need some armor. Not like it would take very long to find any though, that's the merchant right over there.");
+					System.out.println("Dracula S. Notobushki, Legendary Weaponsmith: Tell you what, since your a new guy around here, I'll \ngive it to you for free.");
+					System.out.println("You aquirred Caliburn. Now you just need some armor. Not like it would take very long to find any \nthough, that's the merchant right over there.");
 					System.out.println("Bartholomew, The Great Armor Merchant: Welcome to thy shop, what shall you have?");
-					System.out.println("1 - Steel plated wool insolent armor. Very solid and heavy. It has a wool lining on the inside to protect you from the cold weather of the nights.");
-					System.out.println("Bartholomew, The Great Armor Merchant: I've heard humans say that wool is really uncomfortable. Good thing skeletons don't have nerves. Looks like"
+					System.out.println("1 - Steel plated wool insolent armor. Very solid and heavy. It has a wool lining on the \ninside to protect you from the cold weather of the nights.");
+					System.out.println("Bartholomew, The Great Armor Merchant: I've heard humans say that wool is really uncomfortable. Good \nthing skeletons don't have nerves. Looks like"
 							+ " we're out of stock of anything else. Tell you what, since your the new guy, I'll give you this one for free.");
-					System.out.println("You aquirred the Steel Plated Wool Insolent armor. It's better than what you've got now, so might as well use it.");
-					System.out.println("Now that you've got a new set of gear, it's time to head to the exit. Looks like it's conviently right up ahead.");
+					System.out.println("You aquirred the Steel Plated Wool Insolent armor. It's better than what you've got now, so might as \nwell use it.");
+					System.out.println("Now that you've got a new set of gear, it's time to head to the exit. Looks like it's conviently right \nup ahead.");
 					
 					System.out.println("\nCHAPTER 1 COMPLETE");
 					
-					finalChapter.SkeletonFinalChapter.text();
+					finalChapter.SkeletonFinalChapter.text(inputName);
 				}
 			}
 		}

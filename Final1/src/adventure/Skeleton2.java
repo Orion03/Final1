@@ -45,16 +45,16 @@ public class Skeleton2 {
 			else if(input6 == 1)
 			{
 				System.out.println("You admire the old man. He admires you back. Content with your admiration for him, \nthe old man skates away into the graveyard. Perhaps someday he "
-						+ "will aid you in your \njourney. As you walk further searching for the exit, you notice that your costume and \nstaff are quite worn. Although your armor is made "
-						+ "of pure iron and your sword \nsharpened to the thinnest point, there's no telling how long it's been degrading \nalong with you. Perhaps a fellow skeleton knows "
+						+ "will aid you in your \njourney. As you walk further searching for the exit, you notice that your costume and \nstaff are quite worn. Although your costume is "
+						+ "made of soft wool and your staff \nfrom the finest wood, there's no telling how long it's been degrading \nalong with you. Perhaps a fellow skeleton knows "
 						+ "where you can find some better \ngear. That means you have to find a skeleton first, though. Luckily, your in a \ngraveyard, so it's not very hard to find one.");
-				System.out.println("\n1 - Search for armor \n2 - Search for weapons");
+				System.out.println("\n1 - Search for a costume \n2 - Search for a staff");
 				input7 = input.nextInt();
 				
 				if(input7 == 1)
 				{
-					System.out.println("Your hunt for armor begins. Not like it would really take very long to find it, \nthough. That's the merchant right over there. You approach the "
-							+ "armor merchant. But \nright before you approach him, you realize you don't have a name. Now would be a \ngood time to figure that out >> ");
+					System.out.println("Your hunt for a costume begins. Not like it would really take very long to find it, \nthough. That's the merchant right over there. You approach the "
+							+ "costume merchant. But \nright before you approach him, you realize you don't have a name. Now would be a \ngood time to figure that out >> ");
 					inputName = input.next();
 					System.out.println("So you've made up your mind, even though skeletons don't really have brains. \n" + inputName + " is the name you've settled on. You approach the "
 							+ "merchant. He welcomes you to \nhis...shop? Can you really call anything in a graveyard a shop?");
@@ -72,7 +72,7 @@ public class Skeleton2 {
 					
 					System.out.println("\nCHAPTER 1 COMPLETE");
 					
-					finalChapter.SkeletonFinalChapter.text();
+					finalChapter.SkeletonFinalChapter.text(inputName);
 				}
 				
 				else if(input7 == 2)
@@ -96,7 +96,7 @@ public class Skeleton2 {
 					
 					System.out.println("\nCHAPTER 1 COMPLETE");
 					
-					finalChapter.SkeletonFinalChapter.text();
+					finalChapter.SkeletonFinalChapter.text(inputName);
 				}
 			}
 		}
