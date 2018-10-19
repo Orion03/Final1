@@ -40,17 +40,6 @@ public class Dialog {
 		{
 			adventure.Skeleton3.text();
 		}
-		
-		else if(input3 == 4)
-		{
-			adventure.Skeleton4.text();
-		}
-		
-		else if(input3 == 5)
-		{
-			adventure.Skeleton5.text();
-		}
-		
 		else
 			System.out.println("This skeleton does not exist in this realm. You died. Start your adventure over.");
 	}

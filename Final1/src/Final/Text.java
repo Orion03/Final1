@@ -22,10 +22,7 @@ public class Text {
 		System.out.println("Choose your class:");
 		System.out.println("1 - Skeleton Warrior: This skeleton was buried with ancient samurai armor and a sharpened phoenix blade.");
 		System.out.println("2 - Skeleton Sorcerer: This skeleton was buried with knowledge of forbidden science.");
-		System.out.println("3 - Skeleton Gunsman: This skeleton was buried with the most powerful arsenal.");
-		System.out.println("4 - Skeleton Superior: This skeleton was buried with powers beyond human comprehension.");
-		System.out.println("5 - Skeleton Brute: This skeleton was buried with the strength of a thousand men.");
-		
+		System.out.println("3 - Skeleton Unrendered: This skeleton was buried with the strongest of poses.");
 	}
 
 }
