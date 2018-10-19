@@ -97,7 +97,7 @@ public class Skeleton2 {
 					
 					System.out.println("\nCHAPTER 1 COMPLETE");
 					
-					finalChapter.SkeletonFinalChapter.text(inputName);
+					finalChapter.SkeletonFinalChapter2.text(inputName);
 				}
 			}
 		}

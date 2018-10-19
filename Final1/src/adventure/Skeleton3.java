@@ -21,6 +21,7 @@ public class Skeleton3 {
 		
 		System.out.println("You arrise from your coffin, and T-pose in the moonlight. You sheer essence destroys those without a strong "
 				+ "will. A majority of human lives ended that day, and all because of your unmatched power of the T-pose.");
+		System.out.println("Unfortunatly, your strong aura caught you in a ");
 		Final.Dialog.text();
 		
 	}
